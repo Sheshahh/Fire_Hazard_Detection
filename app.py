@@ -4,7 +4,8 @@ import numpy as np
 from PIL import Image
 
 # Load model
-model = tf.keras.models.load_model("fire_hazard_cnn.keras")
+
+model = tf.keras.models.load_model("models/fire_hazard_cnn.keras")
 
 # Page settings
 st.set_page_config(page_title="Fire Hazard Detection", page_icon="🔥")
